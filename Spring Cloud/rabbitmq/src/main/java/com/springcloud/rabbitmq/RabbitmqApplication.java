@@ -1,13 +1,13 @@
-package com.springcloud.questionservice;
+package com.springcloud.rabbitmq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class QuestionServiceApplication {
+public class RabbitmqApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(QuestionServiceApplication.class, args);
+		SpringApplication.run(RabbitmqApplication.class, args);
 	}
 
 }
